@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Driving History</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js" defer></script>
+    <link rel="stylesheet" href="History.css"> <!-- Linking the CSS file -->
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="logo.png" alt="logo">
+
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="reward.html">Reward</a></li>
+                <li><a href="History.html" class="active">History</a></li>
+                <li><a href="friends.html">Friends</a></li>
+                <li><a href="leaderboard.html">Leaderboard</a></li>
+                <li><a href="challenges.html">Challenges</a></li>
+            </ul>
+            <pre><span>                                                                    </span></pre>
+            <a href="login.html"><button class="login-btn">Login</button></a>
+            <pre><span>              </span></pre>
+            <div class="profile-container">
+                <img src="https://img.freepik.com/premium-vector/vector-flat-illustration-grayscale-avatar-user-profile-person-icon-gender-neutral-silhouette-profile-picture-suitable-social-media-profiles-icons-screensavers-as-templatex9xa_719432-2210.jpg"
+                    alt="Profile Photo" class="profile-pic" onclick="toggleProfile()">
+                <div class="profile-details" id="profileDetails">
+                    <p><strong>Name:</strong> Sumitra Choudhary</p>
+                    <p><strong>Email:</strong> sumitrachoudhary63050@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="history-section">
+            <h2>Driving History</h2>
+            <table class="history-table">
+                <thead>
+                    <tr>
+                        <th>DATE</th>
+                        <th>DISTANCE DRIVEN</th>
+                        <th>POINTS EARNED</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>March 18, 2024</td>
+                        <td>12 km</td>
+                        <td>150</td>
+                    </tr>
+                    <tr>
+                        <td>March 17, 2024</td>
+                        <td>8 km</td>
+                        <td>100</td>
+                    </tr>
+                    <tr>
+                        <td>March 16, 2024</td>
+                        <td>15 km</td>
+                        <td>200</td>
+                    </tr>
+                    <tr>
+                        <td>March 15, 2024</td>
+                        <td>10 km</td>
+                        <td>150</td>
+                    </tr>
+                    <tr>
+                        <td>March 14, 2024</td>
+                        <td>28 km</td>
+                        <td>300</td>
+                    </tr>
+                    <tr>
+                        <td>March 13, 2024</td>
+                        <td>5 km</td>
+                        <td>50</td>
+                    </tr>
+                    <tr>
+                        <td>March 12, 2024</td>
+                        <td>20 km</td>
+                        <td>250</td>
+                    </tr>
+                    <tr>
+                        <td>March 11, 2024</td>
+                        <td>30 km</td>
+                        <td>400</td>
+                    </tr>
+                    <tr>
+                        <td>March 10, 2024</td>
+                        <td>18 km</td>
+                        <td>200</td>
+                    </tr>
+                    <tr>
+                        <td>March 9, 2024</td>
+                        <td>22 km</td>
+                        <td>300</td>
+                    </tr>
+                    <tr>
+                        <td>March 8, 2024</td>
+                        <td>25 km</td>
+                        <td>350</td>
+                    </tr>
+                    <tr>
+                        <td>March 7, 2024</td>
+                        <td>12 km</td>
+                        <td>150</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <h2>InsuraDrive</h2>
+                <p>AI-powered driving companion for safer roads and better insurance rates.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our Team</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                        <li><a href="#">Data Protection</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <p class="footer-bottom">© 2025 InsuraDrive. All Rights Reserved.</p>
+    </footer>
+
+    <script src="History.js"></script>
+</body>
+
+</html>
