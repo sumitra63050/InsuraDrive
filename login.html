@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login / Signup - InsuraDrive</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="logo.png" alt="logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="reward.html">Reward</a></li>
+                <li><a href="History.html">History</a></li>
+                <li><a href="friends.html">Friends</a></li>
+                <li><a href="leaderboard.html">Leaderboard</a></li>
+                <li><a href="challenges.html">Challenges</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <section class="login-container">
+            <h1>Login / Signup</h1>
+            <p id="login-signup-message">Access your driving insights and rewards</p>
+            <div class="login-box">
+                <form id="loginForm">
+                    <div id="signupFields">
+
+                    </div>
+
+                    <input type="email" id="email" placeholder="Enter your email" required>
+
+                    <input type="password" id="password" placeholder="Enter your password" required>
+                    <div class="remember-forgot" id="forgotPassword">
+                        <span><input type="checkbox" id="remember">
+                            <span> </span><label for="remember">Remember me</label>
+                        </span>
+
+                        <a href="#">Forgot password?</a>
+                    </div>
+                    <button type="submit" class="login-submit">Log in</button>
+                </form>
+
+                <div class="social-login">
+
+                </div>
+                <p class="signup-link">
+                    <span id="toggleText">Don't have an account?</span>
+                    <a href="#" id="toggleLink">Sign up</a>
+                </p>
+            </div>
+        </section>
+        <section class="benefits">
+            <h2>Benefits of Having an Account</h2>
+            <div class="benefit-cards">
+                <div class="card">
+                    <span class="icon">⭐</span>
+                    <h3>Track Your Progress</h3>
+                    <p>Monitor your driving score, achievements, and rewards all in one place.</p>
+                </div>
+                <div class="card">
+                    <span class="icon">📩</span>
+                    <h3>Personalized Insights</h3>
+                    <p>Receive customized recommendations to improve your driving and save on insurance.</p>
+                </div>
+                <div class="card">
+                    <span class="icon">👥</span>
+                    <h3>Community Features</h3>
+                    <p>Connect with friends, join challenges, and compete on the leaderboard.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <h2>InsuraDrive</h2>
+                <p>AI-powered driving companion for safer roads and better insurance rates.</p>
+                <div class="social-icons"><a href="#"><i class="fab fa-facebook"></i></a><a href="#"><i
+                            class="fab fa-twitter"></i></a><a href="#"><i class="fab fa-instagram"></i></a><a
+                        href="#"><i class="fab fa-linkedin"></i></a></div>
+            </div>
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our Team</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                        <li><a href="#">Data Protection</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <p class="footer-bottom">© 2025 InsuraDrive. All Rights Reserved.</p>
+    </footer>
+    <script src="login.js"></script>
+</body>
+
+</html>
