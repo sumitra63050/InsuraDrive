@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DriveInsure AI</title>
+
+    <!-- Fonts & Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="logo.png" alt=" logo">
+
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="reward.html">Reward</a></li>
+                <li><a href="History.html">History</a></li>
+                <li><a href="friends.html">Friends</a></li>
+                <li><a href="leaderboard.html">Leaderboard</a></li>
+                <li><a href="challenges.html">Challenges</a></li>
+            </ul>
+            <pre><span>                                                                    </span></pre>
+            <a href="login.html"><button class="login-btn">Login</button></a>
+            <pre><span>              </span></pre>
+            <div class="profile-container">
+                <img src="https://img.freepik.com/premium-vector/vector-flat-illustration-grayscale-avatar-user-profile-person-icon-gender-neutral-silhouette-profile-picture-suitable-social-media-profiles-icons-screensavers-as-templatex9xa_719432-2210.jpg"
+                    alt="Profile Photo" class="profile-pic" onclick="toggleProfile()">
+                <div class="profile-details" id="profileDetails">
+                    <p><strong>Name:</strong> Sumitra Choudhary</p>
+                    <p><strong>Email:</strong> sumitrachoudhary63050@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Welcome Section -->
+    <section class="welcome-content">
+        <div class="welcome-overlay">
+            <h1>Welcome to InsuraDrive</h1>
+            <p>Drive smart ,Stay Safer</p>
+        </div>
+    </section>
+
+    <!-- Driving Stats -->
+    <section class="driving-stats">
+        <p>Track your driving habits, improve your safety rating, and unlock exciting benefits!</p>
+        <div class="stats-grid">
+            <div class="stat-card">
+                <p>Your Rank</p>
+                <h2>N/A</h2>
+            </div>
+            <div class="stat-card">
+                <p>Driver Status</p>
+                <h2 class="gold">N/A</h2>
+            </div>
+            <div class="stat-card">
+                <p>Total Points</p>
+                <h2>N/A</h2>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feedback -->
+    <section class="feedback-section">
+        <div class="feedback-form">
+            <h2>We Value Your Feedback</h2>
+            <h3>Share Your Thoughts</h3><br>
+            <p>Your feedback helps us improve DriveInsure AI. Let us know about your experience or what features you'd
+                like to see next.</p><br>
+            <form id="feedbackForm">
+                <label for="name"></label>
+                <input type="text" id="name" placeholder="Your name" required />
+                <label for="email"></label>
+                <input type="email" id="email" placeholder="Your email" required />
+                <label for="feedback"></label>
+                <textarea id="feedback" placeholder="Tell us your thoughts..." required></textarea>
+                <button type="submit">Submit Feedback</button>
+            </form>
+        </div>
+        <div class="feedback-image">
+            <img src="https://media.istockphoto.com/id/1460275041/photo/customer-satisfaction-survey-concept-5-star-satisfaction-service-experience-rating-online.jpg?s=612x612&w=0&k=20&c=jDEeDVdwFFhlnUP4Tc0frcKbQUIEm9ssZ0W9-yJUBJg="
+                alt="Feedback Image" />
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <h2>InsuraDrive</h2>
+                <p>AI-powered driving companion for safer roads and better insurance rates.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our Team</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                        <li><a href="#">Data Protection</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <p class="footer-bottom">© 2025 InsuraDrive. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
