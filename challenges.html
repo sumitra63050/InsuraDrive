@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar & Footer</title>
+    <script src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/js/all.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js" defer></script>
+
+    <link rel="stylesheet" href="challenges.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="logo.png" alt="logo">
+
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="reward.html">Reward</a></li>
+                <li><a href="History.html">History</a></li>
+                <li><a href="friends.html">Friends</a></li>
+                <li><a href="leaderboard.html">Leaderboard</a></li>
+                <li><a href="challenges.html" class="active">Challenges</a></li>
+            </ul>
+            <pre><span>                                                                    </span></pre>
+            <a href="login.html"><button class="login-btn">Login</button></a>
+            <pre><span>              </span></pre>
+            <div class="profile-container">
+                <img src="https://img.freepik.com/premium-vector/vector-flat-illustration-grayscale-avatar-user-profile-person-icon-gender-neutral-silhouette-profile-picture-suitable-social-media-profiles-icons-screensavers-as-templatex9xa_719432-2210.jpg"
+                    alt="Profile Photo" class="profile-pic" onclick="toggleProfile()">
+                <div class="profile-details" id="profileDetails">
+                    <p><strong>Name:</strong> Sumitra Choudhary</p>
+                    <p><strong>Email:</strong> sumitrachoudhary63050@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="challenges">
+        <h2>Challenges</h2>
+        <div class="challenge-list">
+
+            <ul>
+                <li class="completed">✔ Drive safely for 7 days without any violations</li>
+                <li>◯ Earn 500 points this week</li>
+                <li>◯ Complete 10 trips with smooth braking patterns</li>
+                <li class="completed">✔ Maintain a perfect driving record for 5 days</li>
+                <li>◯ Drive 50 km without any risky maneuvers</li>
+                <li>◯ Avoid phone usage while driving for a week</li>
+                <li>◯ Stay within the speed limit for 10 days</li>
+                <li>◯ Report 3 road hazards to improve the safety map</li>
+                <li>◯ Complete a week of eco-friendly driving</li>
+                <li>◯ Complete 5 night drives without accidents</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="info">
+        <div class="daily-challenges">
+            <h3>Daily Challenges</h3>
+
+            <ul>
+                <li><span style="color:#6B46C1'">🔹 </span> Drive 10 km without speeding</li>
+
+
+
+
+                <li>🔹 No phone usage during trips</li>
+                <li>🔹 Complete at least one trip</li>
+            </ul>
+        </div>
+        <div class="weekly-challenges">
+            <h3>Weekly Challenges</h3>
+
+
+            <ul>
+                <li>🔹rive 100 km without speeding</li>
+                <li>🔹 Maintain eco-driving for 5 trips</li>
+                <li>🔹 Share your driving tips with friends</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <h2>InsuraDrive</h2>
+                <p>AI-powered driving companion for safer roads and better insurance rates.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our Team</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                        <li><a href="#">Data Protection</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <p class="footer-bottom">© 2025 InsuraDrive. All Rights Reserved.</p>
+    </footer>
+
+    <script src="challenges.js"></script>
+</body>
+
+</html>
