@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DriveInsure AI</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="about.css">
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="logo.png" alt="logo">
+
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+                <li><a href="reward.html">Reward</a></li>
+                <li><a href="History.html">History</a></li>
+                <li><a href="friends.html">Friends</a></li>
+                <li><a href="leaderboard.html">Leaderboard</a></li>
+                <li><a href="challenges.html">Challenges</a></li>
+            </ul>
+            <pre><span>                                                                    </span></pre>
+            <a href="login.html"><button class="login-btn">Login</button></a>
+            <pre><span>              </span></pre>
+            <div class="profile-container">
+                <img src="https://img.freepik.com/premium-vector/vector-flat-illustration-grayscale-avatar-user-profile-person-icon-gender-neutral-silhouette-profile-picture-suitable-social-media-profiles-icons-screensavers-as-templatex9xa_719432-2210.jpg"
+                    alt="Profile Photo" class="profile-pic" onclick="toggleProfile()">
+                <div class="profile-details" id="profileDetails">
+                    <p><strong>Name:</strong> Sumitra Choudhary</p>
+                    <p><strong>Email:</strong> sumitrachoudhary63050@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="site-main">
+
+
+        <section class="features">
+            <div class="container">
+                <div class="feature-card">
+                    <div class="feature-icon1"><i class="fa-solid fa-shield-halved"></i></div>
+                    <h2>Live Monitoring</h2>
+                    <p>AI monitors driving patterns to assess risk and provide feedback.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon2"><i class="fa-solid fa-chart-line"></i></div>
+                    <h2>Personalized Scoring</h2>
+                    <p>Get a safety score based on real-time driving behavior.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon3"> <i class="fas fa-mobile-alt"></i></div>
+                    <h2>Mobile Analytics</h2>
+                    <p>View trip insights and driving improvement tips on the app.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon4"> <i class="fas fa-coins"></i></div>
+                    <h2>Dynamic Premiums</h2>
+                    <p>Insurance rates adjust based on your driving safety.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon5"><i class="fas fa-exclamation-triangle"></i></div>
+                    <h2>Proactive Alerts</h2>
+                    <p>Get notifications on risky driving habits.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon6"><i class="fas fa-car-crash"></i></div>
+                    <h2>Accident Prevention</h2>
+                    <p>receive warnings for high-risk areas.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon7"> <i class="fas fa-lightbulb"></i></div>
+                    <h2>Behavioral Insights</h2>
+                    <p>
+                        analyze your driving trends and get improvement tips.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon8"><i class="fas fa-gift"></i></div>
+                    <h2>Rewards Program</h2>
+                    <p>Earn points for safe driving and redeem benefits.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="how-it-works">
+            <h2>How InsuraDrive Works</h2>
+            <div class="works-grid">
+                <div class="work-item">
+                    <div class="icon-container1"><i class="fas fa-car"></i></div>
+                    <h3>Drive Monitoring</h3>
+                    <p>Our AI monitors your driving patterns in real-time through your smartphone sensors.</p>
+
+                </div>
+                <div class=" work-item">
+                    <div class="icon-container2"><i class="fas fa-chart-line"></i></div>
+                    <h3>Risk Assessment</h3>
+                    <p>Our algorithms analyze your driving behavior to calculate your risk profile accurately.</p>
+                    <!--<img src="https://source.unsplash.com/300x200/?analytics,chart" alt="Data Analytics">-->
+                </div>
+                <div class="work-item">
+                    <div class="icon-container3"><i class="fas fa-shield-alt"></i></div>
+                    <h3>Personalized Insurance</h3>
+                    <p>Receive custom insurance rates based on your actual driving habits, not just demographics.</p>
+                    <!--<img src="https://source.unsplash.com/300x200/?document,signature" alt="Insurance Document">-->
+                </div>
+            </div>
+        </section>
+
+
+        <section class="points-system">
+            <div class="points-header">
+                <h2>Points System
+            </div>
+            </h2>
+            <p>How to earn points for safe driving habits</p>
+            <div class="points-grid">
+                <div class="point-card"><i class="fa-solid fa-shield-halved icon-blue"></i>
+                    <div class="points">+30</div>
+                    <p>Avoid Accident-Prone Areas</p>
+                </div>
+                <div class="point-card"><i class="fa-solid fa-award icon-green"></i>
+                    <div class="points">+40</div>
+                    <p>Maintain Speed Limit</p>
+                </div>
+                <div class="point-card"><i class="fa-solid fa-star icon-orange"></i>
+                    <div class="points">+200</div>
+                    <p>7 Days Safe Driving Streak</p>
+                </div>
+                <div class="point-card"><i class="fa-solid fa-user-plus icon-purple"></i>
+                    <div class="points">+100</div>
+                    <p>Refer a Friend</p>
+                </div>
+            </div>
+        </section>
+        <section class="driving-difference">
+            <h2>Your Driving Makes a Difference</h2>
+            <p>With DriveInsure AI, your premium is directly tied to how you drive. Our technology tracks key behaviors:
+            </p>
+            <div class="driving-columns">
+                <div class="safe-behaviors">
+                    <h3>Safe Behaviors We Reward</h3>
+                    <ul>
+                        <li>✅ Consistent speed control</li>
+                        <li>✅ Smooth braking patterns</li>
+                        <li>✅ Proper cornering technique</li>
+                        <li>✅ No phone usage while driving</li>
+                    </ul>
+                </div>
+                <div class="risky-behaviors">
+                    <h3>Risky Behaviors to Avoid</h3>
+                    <ul>
+                        <li>❌ Harsh acceleration and braking</li>
+                        <li>❌ Excessive speeding</li>
+                        <li>❌ Sharp turns at high speeds</li>
+                        <li>❌ Distracted driving (phone usage)</li>
+                    </ul>
+                </div>
+            </div>
+            <a href="login.html"> <button class="cta-button">Start Your Safe Driving Journey →</button></a>
+        </section>
+
+        <section class="car-connection">
+            <div class="car-box">
+                <h3> How We Connect With Your Car</h3>
+                <!--<img src="car_connect.jpg" alt="Car Connection">-->
+                <p>Our system securely connects to your vehicle's onboard diagnostics port (OBD-II) or works through
+                    your smartphone's sensors to gather driving data without any intrusive hardware.</p>
+                <ul>
+                    <li>🔹 OBD-II connection for precise vehicle diagnostics</li>
+                    <li>🔹 Smartphone accelerometer and GPS for motion tracking</li>
+                    <li>🔹 End-to-end encryption for your data privacy</li>
+                </ul>
+            </div>
+            <div class="car-box">
+                <h3> What Your Car Tells Us</h3>
+                <!--<img src="car_data.jpg" alt="Car Data">-->
+                <p>Your driving style creates a unique signature that helps us understand your risk profile. Our AI
+                    analyzes these patterns to provide personalized insurance options.</p>
+                <ul>
+                    <li><strong> 🔹Acceleration</strong> - How smoothly you accelerate from stops</li>
+                    <li><strong> 🔹 Braking</strong> - Your braking patterns and emergency stops</li>
+                    <li><strong> 🔹Cornering</strong> - How you navigate turns and curves</li>
+                    <li><strong> 🔹Speed Adherence</strong> - How well you follow speed limits</li>
+                </ul>
+            </div>
+        </section>
+
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-left">
+                    <h2>InsuraDrive</h2>
+                    <p>AI-powered driving companion for safer roads and better insurance rates.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3>Company</h3>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Our Team</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Resources</h3>
+                        <ul>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Help Center</a></li>
+                            <li><a href="#">FAQs</a></li>
+                            <li><a href="#">Support</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Legal</h3>
+                        <ul>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                            <li><a href="#">Cookie Policy</a></li>
+                            <li><a href="#">Data Protection</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <p class="footer-bottom">© 2025 InsuraDrive. All Rights Reserved.</p>
+        </footer>
+    </main>
+    <script src="about.js"></script>
+
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+</body>
+
+</html>
