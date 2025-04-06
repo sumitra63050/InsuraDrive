@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar & Footer</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js" defer></script>
+
+    <link rel="stylesheet" href="leaderboard.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="logo.png" alt="logo">
+
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="reward.html">Reward</a></li>
+                <li><a href="History.html">History</a></li>
+                <li><a href="friends.html">Friends</a></li>
+                <li><a href="leaderboard.html" class="active">Leaderboard</a></li>
+                <li><a href="challenges.html">Challenges</a></li>
+            </ul>
+            <pre><span>                                                                    </span></pre>
+            <a href="login.html"><button class="login-btn">Login</button></a>
+            <pre><span>              </span></pre>
+            <div class="profile-container">
+                <img src="https://img.freepik.com/premium-vector/vector-flat-illustration-grayscale-avatar-user-profile-person-icon-gender-neutral-silhouette-profile-picture-suitable-social-media-profiles-icons-screensavers-as-templatex9xa_719432-2210.jpg"
+                    alt="Profile Photo" class="profile-pic" onclick="toggleProfile()">
+                <div class="profile-details" id="profileDetails">
+                    <p><strong>Name:</strong> Sumitra Choudhary</p>
+                    <p><strong>Email:</strong> sumitrachoudhary63050@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="leaderboard-section">
+            <h2>Safe Driver Leaderboard</h2>
+            <p>See how you rank among the safest drivers in our community. Improve your driving habits to climb the
+                ranks.</p>
+            <div class="leaderboard-stats">
+                <div class="stat">
+                    <span>N/A</span>
+                    <p>Driving Streak</p>
+                </div>
+                <div class="stat">
+                    <span>N/A</span>
+                    <p>Your Rank</p>
+                </div>
+                <div class="stat">
+                    <span>N/A</span>
+                    <p>Your Points</p>
+                </div>
+            </div>
+
+            <div class="top-drivers">
+                <h3> Top 3 Safe Drivers</h3>
+                <div class="top-driver-cards">
+                    <div class="top-driver-card">
+                        <img src="rank1.png" alt="1st Place">
+                        <p class="driver-name">Sumitra</p>
+                        <p class="driver-points">12,450 points</p>
+                    </div>
+                    <div class="top-driver-card">
+                        <img src="rank2.png" alt="2nd Place">
+                        <p class="driver-name">Tanvi</p>
+                        <p class="driver-points">10,850 points</p>
+                    </div>
+                    <div class="top-driver-card">
+                        <img src="rank3.png" alt="3rd Place">
+                        <p class="driver-name">Rahul</p>
+                        <p class="driver-points">8,720 points</p>
+                    </div>
+                </div>
+            </div>
+            <section class="leaderboard-table-section">
+
+                <table class="leaderboard-table">
+                    <thead>
+                        <tr>
+                            <th>Rank</th>
+                            <th>Driver</th>
+                            <th>Points</th>
+
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>4</td>
+                            <td>Deepika Singh</td>
+                            <td>6,650</td>
+
+
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Vikram Reddy</td>
+                            <td>2,980</td>
+
+
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Anjali Mehta</td>
+                            <td>2,540</td>
+
+
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>Rajiv Kapoor</td>
+                            <td>7,120</td>
+
+
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>Sanjay Verma</td>
+                            <td>6,950</td>
+
+
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>Neha Gupta</td>
+                            <td>6,780</td>
+
+
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td>Kiran Reddy</td>
+                            <td>6,420</td>
+
+
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <h2>InsuraDrive</h2>
+                <p>AI-powered driving companion for safer roads and better insurance rates.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our Team</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                        <li><a href="#">Data Protection</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <p class="footer-bottom">© 2025 InsuraDrive. All Rights Reserved.</p>
+    </footer>
+
+    <script src="leaderboard.js"></script>
+</body>
+
+</html>
