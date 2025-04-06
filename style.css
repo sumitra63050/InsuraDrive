@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Navbar */
+.navbar {
+    background: #F8F8F8;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav-container {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+.bold {
+    color: #6B46C1;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.nav-links a:hover, .nav-links .active {
+    color: #6B46C1;
+}
+
+
+
+/* Login Button */
+
+.login-btn {
+    background-color: #6B46C1;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Profile */
+.profile-container {
+    position: relative;
+}
+
+.profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.profile-details {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: -40px;
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.profile-container:hover .profile-details {
+    display: block;
+}
+
+
+
+/* Welcome Section */
+.welcome-content {
+    height: 90vh;
+    background: url('car.jpg') no-repeat center center/cover;
+    
+    border-radius: 10px;
+    margin: 20px 5%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.welcome-overlay {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 35px;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.welcome-overlay h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.welcome-overlay p {
+    font-size: 20px;
+}
+
+/* Stats Section */
+.driving-stats {
+    margin: 30px 5%;
+    padding: 30px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.driving-stats p {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.stats-grid {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.stat-card {
+    background: #f1f1f1;
+    padding: 20px;
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.gold {
+    color: #e6ac00;
+}
+
+/* Feedback Section */
+.feedback-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 5%;
+    gap: 30px;
+}
+
+.feedback-form {
+    width: 50%;
+}
+
+.feedback-form h2 {
+    color: #6B46C1;
+}
+
+.feedback-form h3 {
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+textarea {
+    height: 120px;
+    resize: none;
+}
+
+.feedback-section button {
+    margin-top: 10px;
+    padding: 12px;
+    width: 100%;
+    background-color: #6B46C1;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.feedback-image img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+/* Footer */
+.footer {
+    background-color: #F8F8F8;
+    border-top: 1px solid #ddd;
+    padding: 30px 0 10px;
+    margin-top: 30px;
+}
+
+.footer-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-left h2 {
+    color: #6B46C1;
+}
+
+.footer-left p {
+    margin: 10px 0;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons a {
+    color: #333;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #6B46C1;
+}
+
+.footer-links {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column h3 {
+    color: #6B46C1;
+    margin-bottom: 10px;
+}
+
+.footer-column a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    margin: 5px 0;
+}
+
+.footer-bottom {
+    text-align: center;
+    color: #777;
+    margin-top: 20px;
+}
