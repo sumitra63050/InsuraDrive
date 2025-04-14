@@ -10,7 +10,7 @@ Current insurance frameworks suffer from:
 
 ---
 
-##  Our Solution – InsuraDrive AI
+##  Our Solution – InsuraDrive 
 
 **InsuraDrive AI** is a smart, AI-powered ecosystem that monitors **real-time driver behavior and vehicle conditions** to empower insurance providers with **accurate risk assessment** and incentivize drivers through **gamification**.
 
@@ -46,7 +46,7 @@ AI validates claim data and ensures transparency in settlements.
 
 ---
 
-##  Technology Stack
+##  Tech Stack
 
 - **AI/ML:** Google Gemini AI, risk evaluation models
 - **IoT:** Sensor-based driver and vehicle behavior monitoring
@@ -77,11 +77,9 @@ AI validates claim data and ensures transparency in settlements.
 
 To build a **safer and smarter mobility ecosystem** by merging insurance, AI, and gamification—creating value for both insurers and policyholders, while ultimately **saving lives and reducing road accident rates**.
 
----
 
-## Current Status
 
-- ✅ UI Design: In progress (Home, Leaderboard, Rewards, Profile pages)
+
 
 
 
