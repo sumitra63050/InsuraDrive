@@ -51,7 +51,6 @@ AI validates claim data and ensures transparency in settlements.
 - **AI/ML:** Google Gemini AI, risk evaluation models
 - **IoT:** Sensor-based driver and vehicle behavior monitoring
 - **Cloud:** Google Cloud Platform (GCP)
-- **Development Platform:** Google IDX
 - **Frontend:** HTML, CSS (Interactive UI for web-based dashboards)
 - **Backend (Planned):** Node.js / Firebase
 
