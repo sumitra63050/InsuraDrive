@@ -22,26 +22,26 @@ We combine **AI**, **IoT**, and **cloud technologies** to create a system where:
 
 ##  Key Features
 
-✅ **Real-Time Driver Monitoring**  
+ **Real-Time Driver Monitoring**  
 Captures data such as speed, sudden braking, distractions, and vehicle health via IoT sensors.
 
-✅ **AI-Driven Risk Assessment**  
+ **AI-Driven Risk Assessment**  
 Utilizes machine learning models and **Google Gemini AI** to evaluate behavior and generate risk scores.
 
-✅ **Gamified Experience**  
+ **Gamified Experience**  
 Transforms driving into a fun and rewarding activity:
 -  Safe Driving Challenges  
 -  Achievement Badges & Milestones  
 -  Reward Points & Credits  
 - Dynamic Leaderboard
 
-✅ **Instant Feedback & Alerts**  
+ **Instant Feedback & Alerts**  
 Drivers receive real-time notifications on unsafe behaviors (e.g., overspeeding) along with recommendations for improvement.
 
-✅ **Dynamic Insurance Premiums**  
+ **Dynamic Insurance Premiums**  
 Policies are adjusted based on driver behavior—**rewarding safe drivers** and encouraging continuous improvement.
 
-✅ **Fraud Prevention**  
+ **Fraud Prevention**  
 AI validates claim data and ensures transparency in settlements.
 
 ---
