@@ -58,13 +58,13 @@ AI validates claim data and ensures transparency in settlements.
 
 ##  Impact
 
-🔹 **For Insurers**:  
+ **For Insurers**:  
 - Lower claim losses  
 - Accurate policy pricing  
 - Improved fraud detection  
 - Higher customer satisfaction
 
-🔹 **For Drivers**:  
+ **For Drivers**:  
 - Transparent risk scores  
 - Personalized improvement tips  
 - Rewards and premium benefits  
