@@ -76,9 +76,9 @@ AI validates claim data and ensures transparency in settlements.
 
 To build a **safer and smarter mobility ecosystem** by merging insurance, AI, and gamification—creating value for both insurers and policyholders, while ultimately **saving lives and reducing road accident rates**.
 
+## Team Members
 
-
-
-
-
-
+- Sumitra Patel
+- Prince Kumar Gupta
+- Tanvi Shekhawat
+- Shiv Yadav
